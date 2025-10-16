@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Alexis Mandario</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hi, I'm Alyx</h1>
+                <p class="subtitle">Artificial Intelligence, Machine Learning, and Data Science</p>
+                <p>I build intelligent applications that solve real-world problem.</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate IT professional with a strong foundation in Machine Learning, Artificial Intelligence, and Data Science. My experience includes developing predictive models, building agentic AI systems, and performing advanced data analysis. I am proficient in Python and libraries such as Scikit-learn, LangChain, and Pandas, as well as building back-end systems with frameworks like FastAPI. I thrive on transforming complex data into actionable insights and intuitive digital experiences.
+            </p>
+            <div class="skills">
+                <h3>Key Skills:</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Machine Learning</li>
+                    <li>Data Science</li>
+                    <li>Statistics</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Docker</li>
+                    <li>AWS</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="img/earthquake.jpg" alt="Earthquake Damage Prediction Project">
+                    <h3>Early Earthquake Response System</h3>
+                    <p>A web app that analyzes live seismic data, location, and building specifications to predict how severely each structure and surrounding area is affected.
+In an Instant, it helps us efficiently plan and distribute rescue resources—directing medics, food, and supplies exactly where they’re needed, without waiting for Reporters.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>Machine Learning</span>
+                        <span>Multi-Classification</span>
+                        <span>Smote-NC</span>
+                        <span>Scikit-learn</span>
+                        <span>Voting Classifier</span>
+                        <span>Stacking Classifier</span>
+                        <span>Gradient Boost</span>
+                        <span>Optuna</span>
+                        <span>Recall Metric</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://medium.com/@kaikuh/earthquake-early-response-simulator-a337f7fbd4a8" class="link-button">View Documentation</a>
+                        <a href="https://earthquake-early-response.up.railway.app/" class="link-button">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                     <img src="img/flood.jpg" alt="Project Two">
+                    <h3>Agentic RAG</h3>
+                    <p>A sample demo of a RAG (Retrieval-Augmented Generation) system. Users can upload any PDF and ask questions about its contents.
+
+The demo comes preloaded with a Philippine flood-control corruption report. The pipeline reranks results from a knowledge graph and both dense and sparse vector searches before generating answers using Llama.</p>
+                     <div class="project-tags">
+                        <span>Langchain</span>
+                        <span>LangGraph</span>
+                        <span>Dense and Sparce Vector Database</span>
+                        <span>Re-ranking</span>
+                        <span>Knowledge Graph</span>
+                        <span>Parser</span>
+                        <span>Pinecone</span>
+                        <span>Neo4j</span>
+                    </div>
+                    <div class="project-links">
+
+                        <a href="https://medium.com/@kaikuh/philippines-flood-control-corruption-3e3ce980dfa0" class="link-button">View Documentation</a>
+                        <a href="https://medium.com/@kaikuh/rag-exploratory-analysis-02409e2e0e6f" class="link-button">Code</a>
+                        <a href="https://rag-ai-agent.up.railway.app/" class="link-button">Live Demo</a>
+                    </div>
+                </div>
+
+            <div class="project-card">
+                     <img src="img/report.jpg" alt="Project Three">
+                    <h3>Offline Multimodal News Generation System Powered by Gemma 3n</h3>
+                    <p>Field reporters are expected to stay alert and responsive at all times, especially during emergencies. But under intense pressure, the manual workload of transcribing interviews, analyzing images, and writing reports from scratch becomes overwhelming. These tasks are not only time-consuming but also susceptible to critical errors. In high-stakes situations like typhoons, such delays and inaccuracies can severely impact the public’s access to timely, accurate, and life-saving information. News'ly solve that problem. This System completely work offline and optimize to work on end devices</p>
+                     <div class="project-tags">
+                        <span>Multi Modal LLM Model</span>
+                        <span>Speech to Text</span>
+                        <span>Image Analysis</span>
+                        <span>Text Generation</span>
+                        <span>Offline and lightweight</span>
+                        <span>Note: Please wait to load for testing my demo (This is running on free instance, Sytem is sleeping. Zzz)</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.youtube.com/watch?v=Qa0SgODFsDg" class="link-button">Video</a>
+                        <a href="https://www.kaggle.com/competitions/google-gemma-3n-hackathon/writeups/multimodal-news-generation-system-powered-by-gemma" class="link-button">Kaggle Write-up</a>
+                        <a href="https://huggingface.co/spaces/kaiku03/gemma3n-2b-it-challenge-demo" class="link-button">Live Demo</a>
+                    </div>
+                </div>
+
+            <div class="project-card">
+                     <img src="img/vtc.jpg" alt="Project four">
+                    <h3>Voice Time Capsule</h3>
+                    <p>Send a voice message to your future self—and receive a reply from future you. Start a conversation across time. This is your digital time capsule.</p>
+                     <div class="project-tags">
+                        <span>LLM</span>
+                        <span>S3</span>
+                        <span>Docker</span>
+                        <span>Postgres DB</span>
+                        <span>Speach to Text</span>
+                        <span>Text Generation</span>
+                        <span>Voice Cloning</span>
+                        <span>Text to Speach</span>
+                        <span>Eleven Labs</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- <a href="https://medium.com/@kaikuh/philippines-flood-control-corruption-3e3ce980dfa0" class="link-button">View Documentation</a> -->
+                        <a href="https://voice-time-capsule-production.up.railway.app/" class="link-button">Live Demo</a>
+                    </div>
+                </div>
+
+            <div class="project-card">
+                     <img src="img/anomaly.jpg" alt="Project Five">
+                    <h3>Anomaly Detection</h3>
+                    <p>Detecting and Explaining Anomalies in High-Dimensional Data.</p>
+                     <!-- <div class="project-tags">
+                        <span>Scikit-learn</span>
+                        <span>Visualization</span>
+                        <span>PCA</span>
+                        <span>Histogram</span>>
+                    </div> -->
+                    <div class="project-links">
+                        <a href="https://medium.com/@kaikuh/anomaly-detection-shap-bd352438987f" class="link-button">Shap Analysis</a>
+                        <a href="https://medium.com/@kaikuh/anomaly-detection-77021426e195" class="link-button">Lime/DLime Analysis</a>
+                        <a href="https://medium.com/@kaikuh/outlier-detectors-0ee16bb11491" class="link-button">Iso Forest/LOF/DBScan/PCA/T-sne/Umap etc..</a>
+                    </div>
+                </div>
+
+            <div class="project-card">
+                     <img src="img/ds.png" alt="Project Six">
+                    <h3>Data Science</h3>
+                    <p>Comprehensive Data Science and Statistical Analysis</p>
+
+                     <!-- <div class="project-tags">
+                        <span></span>
+                        <span>Hypothesis Testing</span>
+                        <span>Central LImit</span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div> -->
+                    <div class="project-links">
+                        <a href="https://medium.com/@kaikuh/statistical-analysis-part-2-3-b14b87f85abd" class="link-button">Two Sample T-test</a>
+                        <a href="https://medium.com/@kaikuh/hypothesis-c77de0bcefe0" class="link-button">One Sample T-Test</a>
+                        <a href="https://medium.com/@kaikuh/binomial-distribution-and-test-1198bf37214c" class="link-button">Binomial Distribution Test</a>
+                        <a href="https://medium.com/@kaikuh/central-limit-theorem-and-1samp-t-test-22f5e384f92a" class="link-button">Central Limit</a>
+                        <a href="https://medium.com/@kaikuh/naive-bayes-theorem-f00ed15e10ad" class="link-button">Naive Bayes</a>
+                        <a href="https://medium.com/@kaikuh/sentiment-analysis-with-naive-bayes-theorem-b32bdd728877" class="link-button">Sentiment Analysis with Naive Bayes Theorem</a>  
+                        <a href="https://medium.com/@kaikuh/data-science-statistics-and-machine-learning-part-1-663b07d42a7c" class="link-button">Data Cleaning, Wrangling, and Manipulation</a>  
+                    </div>
+                </div>
+
+            <div class="project-card">
+                     <img src="img/ml.jpg" alt="Project Seven">
+                    <h3>ML | NLP | Comp Vision</h3>
+                    <p>Machine learning Collections</p>
+                    <div class="project-links">
+                        <a href="https://medium.com/@kaikuh/machine-learning-code-focus-1bf13c848bc7" class="link-button">Regression</a>
+                        <a href="https://medium.com/@kaikuh/feature-selection-a5cf9df2287b" class="link-button">Feature Engineering (wrapper/filter)</a>
+                        <a href="https://medium.com/@kaikuh/model-selection-7ea5d26c94ce" class="link-button">Model Selection</a>
+                        <a href="https://medium.com/@kaikuh/hyperparameter-tuning-7b279266d239" class="link-button">Hyperparameter Tuning</a>
+                        <a href="https://medium.com/@kaikuh/k-means-clustering-509aca86e060" class="link-button">K-Means Clustering</a>
+                        <a href="https://medium.com/@kaikuh/cat-breed-classifier-a8f5465eb98d" class="link-button">Computer Vision in Pytorch 🔥</a>
+                        <a href="https://medium.com/@kaikuh/pytorch-binary-classification-cbcbf2cebf05" class="link-button">PyTorch Binary Classification</a>
+                        <a href="https://medium.com/@kaikuh/deep-learning-312f4191b246" class="link-button">Deep Learning</a>    
+                        
+                        <a href="https://medium.com/@kaikuh/mask-language-model-mlm-b09b45dd7ce8" class="link-button">Mask Language Model(MLM)</a>
+                        <a href="https://medium.com/@kaikuh/semantic-search-with-faiss-44f48c004a25" class="link-button">Semantic Search with FAISS</a>
+                        <a href="https://medium.com/@kaikuh/computer-vision-cnn-d732238b7e4c" class="link-button">Food Classification (Part 1)</a>
+                    </div>
+                </div>
+
+            <div class="project-card">
+                     <img src="img/lim.png" alt="Project Eight">
+                    <h3>Others</h3>
+                    <p>Other Stories</p>
+                    <div class="project-links">
+                        <a href="https://medium.com/@kaikuh/derivatives-cf8650b5858d" class="link-button">Derivatives</a>
+                        <a href="https://medium.com/@kaikuh/limit-definition-of-derivative-a14ab19722e6" class="link-button">Limit Definition of Derivative</a>    
+                        <a href="https://medium.com/@kaikuh/purrfectly-happy-7182bd1aebb6" class="link-button">Purrfectly Happy</a>    
+
+                    </div>
+                </div>
+
+            
+
+
+                </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm currently open to new opportunities. Feel free to reach out via email or connect with me on social media!</p>
+            <a href="mailto:mandarioalexis@gmail.com" class="contact-button">mandarioalexis@gmail.com</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/alexis-mandario-b546881a8/">LinkedIn</a>
+                <a href="https://github.com/Alyxx-The-Sniper">GitHub</a>
+                <a href="https://huggingface.co/kaiku03">HuggingFace</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alexis Mandario. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
